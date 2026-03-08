@@ -5,15 +5,23 @@ API RESTful desenvolvida com Node.js, TypeScript e Fastify seguindo a arquitetur
 > 🚀 Tecnologias Utilizadas
 
 - Node.js
-
 - TypeScript
-
 - fastify
-
+- @ai-sdk/openai
+- @fastify/cors
+- @fastify/swagger
+- @prisma/adapter-pg
+- @prisma/client
+- @scalar/fastify-api-reference
+- ai
+- better-auth
+- dayjs
+- dotenv
+- fastify
+- fastify-type-provider-zod
+- zod
 - Arquitetura MVC
-
 - Docker
-
 - Eslint/Prettier – Padronização e formatação de código
 
 > 📦 Clone o repositório:
