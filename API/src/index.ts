@@ -21,11 +21,16 @@ app.setSerializerCompiler(serializerCompiler);
 await app.register(fastifySwagger, {
   openapi: {
     info: {
-      title: "SampleApi",
-      description: "Sample backend service",
+      title: "Treinos API",
+      description: "API para gerenciamento de treinos",
       version: "1.0.0",
     },
-    servers: [],
+    servers: [
+      {
+        url: `${process.env.URL}:${process.env.PORT || 3000}`,
+        description: "Servidor local",
+      },
+    ],
   },
   transform: jsonSchemaTransform,
 });
