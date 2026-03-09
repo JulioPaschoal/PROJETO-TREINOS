@@ -1,6 +1,6 @@
 ## 📦 API Treinos
 
-API RESTful desenvolvida com Node.js, TypeScript e Fastify seguindo a arquitetura MVC, com foco em boas práticas, segurança, escalabilidade e padronização de código.
+API RESTful desenvolvida com Node.js, TypeScript e Fastify, com foco em boas práticas, segurança, escalabilidade e padronização de código.
 
 > 🚀 Tecnologias Utilizadas
 
@@ -20,7 +20,6 @@ API RESTful desenvolvida com Node.js, TypeScript e Fastify seguindo a arquitetur
 - fastify
 - fastify-type-provider-zod
 - zod
-- Arquitetura MVC
 - Docker
 - Eslint/Prettier – Padronização e formatação de código
 
